@@ -15,7 +15,6 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Polish body tests for SpamAssassin.
 
 %prep
-%setup -q -c -T
 
 %install
 rm -rf $RPM_BUILD_ROOT
